@@ -21,16 +21,16 @@ component singleton {
 		return parse(response);
 	}
 
-	public function delete(string index='', string type='', string id=''){
-		var url = buildURL(argumentCollection=arguments);
-		var response = curl("delete",url);
-		return parse(response);
-	}
-
 	public function put(string index='', string type='', string id='', struct data = {}){
 		var url = buildURL(argumentCollection=arguments);
 		var body = serializeJSON(data);
 		var response = curl("post",url,body);
+		return parse(response);
+	}
+
+	public function delete(string index='', string type='', string id=''){
+		var url = buildURL(argumentCollection=arguments);
+		var response = curl("delete",url);
 		return parse(response);
 	}
 
