@@ -47,6 +47,10 @@ component singleton {
 		return parse(response);
 	}
 
+	/*
+	 * Private functions
+	 */
+
 	private function parse(data){
 		var response = deserializeJSON(data,false);
 		if(structKeyExists(response,"_source")){
