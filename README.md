@@ -2,7 +2,7 @@ ElasticCF
 =========
 
 #ElasticCF Documention
-From: https://github.com/Prefinem/RedBeanCF
+From: https://github.com/Prefinem/ElasticCF
 
 Coldfusion Component to and get/set/upsert/delete for Elastic Search
 
