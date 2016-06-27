@@ -1,0 +1,11 @@
+{
+    "name" : "elastic",
+    "version" : "master",
+    "repository" : "https://github.com/Prefinem/ElastCF",
+
+    "author": "William Giles",
+    "homepage": "https://github.com/Prefinem",
+    "description" : "A Native Lightweight Coldfusion ElastSearch Wrapper",
+    "keywords" : "Elastic, Elasticsearch, NoSQL, Cache",
+    "license" : "MIT"
+}
